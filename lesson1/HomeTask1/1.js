@@ -13,4 +13,7 @@
 Уточнение: пользователь всегда вводит корректное число.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+const userInput = prompt('Введите температуру в градусах Цельсия');
+const inputNumberCelsius = parseInt(userInput);
+const numberFahrenheit = (9 / 5) * inputNumberCelsius + 32;
+alert('Цельсий: ' + inputNumberCelsius + ', Фаренгейт: ' + numberFahrenheit);
