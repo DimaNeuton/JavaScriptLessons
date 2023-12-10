@@ -7,10 +7,6 @@
 Вывести значение переменной admin в консоль.
 */
 
-<<<<<<< HEAD
-// Здесь пишем решение, данный комментарий необходимо стереть.
-=======
 const name = 'Dmitriy';
 const admin = name;
 console.log(admin);
->>>>>>> HomeTasks
